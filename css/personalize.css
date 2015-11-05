@@ -1,0 +1,203 @@
+@import url(http://www.netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+/* centered columns styles */
+body{
+    line-height: 1.8;
+    background-color:#262324;
+}
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+.header img{
+    display:inline-block;
+    vertical-align:text-bottom;
+}
+header{
+    width:100%;
+    position:absolute;
+    top:50%;
+    margin-top:-75px;
+    color:#fcf8e3
+}
+.row {
+    color:#FFFFF9;
+}
+
+.info-row div{
+    padding-left:0px;
+}
+.info-row p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom:0px;
+}
+.info-row span{
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 1px;
+    margin-bottom:0px;
+}
+.row-flavour p{
+    margin-bottom:10px;
+    font-family: 'Roboto Condensed' , sans-serif;
+}
+header h1{
+    letter-spacing: 4px;
+    font-size:30px;
+    color:#FFF;
+    font-family: 'Orbitron', sans-serif;
+    float:left;
+    margin-bottom: 2px;
+}
+
+.highlight{
+    color:#cbb667;
+    /*color:#E8AD4F;*/
+}
+
+header hr{
+    margin: 3px 0;
+}
+
+.vertical-text {
+    transform: rotate(90deg);
+    transform-origin: left top 0;
+    margin-top: -90px;
+    color:#E8AD4F;
+    float:right;
+}
+
+.logo{
+    display:block;
+    position: absolute;
+    left:50%;
+    margin-left: -90px;
+    top:50%;
+    margin-top: -75px;
+    opacity: 0.07;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.up-drop{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.menu{
+    min-height:1000px;
+    background-color:#262329;
+}
+
+.navbar-twitch {
+    position: fixed;
+    background-color: #19191f;
+    top: 0px;
+    left: 0px;
+    width: 50px;
+    height: 100%;
+    border-radius: 0px;
+    border: 0px;
+    z-index: 1030;
+}
+
+.navbar-twitch.open {
+    width: 240px;
+}
+.navbar-twitch > .container {
+    padding: 0px;
+    width: 100%;
+}
+.navbar-twitch .navbar-header,
+.navbar-twitch .navbar-brand {
+    float: none;
+    display: block;
+    width: 100%;
+    margin: 0px;
+}
+.navbar-twitch .navbar-brand {
+    height: 50px;   
+}
+.navbar-twitch > .container .navbar-brand {
+    padding: 0px;
+    margin: 0px;
+}
+.navbar-twitch > .container .navbar-brand > .small-nav {
+    display: block;
+}
+.navbar-twitch > .container .navbar-brand > .small-nav > span.logo, 
+.navbar-twitch.open > .container .navbar-brand > .full-nav {
+    display: block;
+    font-weight: bold;
+    padding: 15px 2px 15px 3px;
+    font-size: 18pt;
+}
+.navbar-twitch.open > .container .navbar-brand {
+    width: 100%;
+    padding: 15px 15px 60px;
+    text-align: center;
+}
+.navbar-twitch.navbar-inverse > .container .navbar-brand > .small-nav > span.logo {
+    /*color: rgb(255, 255, 255);*/
+}
+.navbar-twitch .navbar-nav > li {
+    float: none;
+}
+.navbar-twitch > .container .full-nav {
+    display: none;
+}
+.navbar-twitch.open > .container .full-nav {
+    display: block;
+}
+.navbar-twitch.open > .container .small-nav {
+    display: none;
+}
+.navbar-twitch .navbar-collapse {
+    padding: 0px;
+}
+.navbar-twitch .navbar-nav {
+    float: none;
+    margin: 0px;
+}
+.navbar-twitch .navbar-nav > li > a {
+    padding: 0px;
+}
+.navbar-twitch .navbar-nav > li > a > span {
+    display: block;
+    font-size: 16pt;
+    padding: 13px 15px 13px 12px;
+}
+.navbar-twitch .tooltip,
+.navbar-twitch .tooltip .tooltip-inner {
+    max-width: auto;
+    white-space:nowrap;
+}
+.navbar-twitch-toggle {
+    position: fixed;
+    top: 5px;
+    left: 55px;
+}
+.navbar-twitch ~ .navbar-twitch-toggle > .nav-open {
+    display: inline-block;
+}
+.navbar-twitch ~ .navbar-twitch-toggle > .nav-close {
+    display: none;
+}
+.navbar-twitch.open ~ .navbar-twitch-toggle {
+    left: 245px;
+}
+.navbar-twitch.open ~ .navbar-twitch-toggle > .nav-open {
+    display: none;
+}
+.navbar-twitch.open ~ .navbar-twitch-toggle > .nav-close {
+    display: inline-block;
+}
